@@ -1,0 +1,31 @@
+h1{
+    background-color: aquamarine;
+    border: 5px solid brown;
+    width: 500px;
+    height: 100px;
+}
+
+.Paraclass01{
+    background-color: green;
+    border: 3px solid black;
+    width: 500px;
+    height: 100px;
+    padding: 15px;
+}
+
+.Paraclass02{
+    background-color: blue;
+    border: 3px solid black;
+    width: 500px;
+    height: 100px;
+}
+
+.Paraclass03{
+    background-color: greenyellow;
+    border: 3px solid black;
+    width: 500px;
+    height: 100px;
+}
+*{
+    margin: 0px
+}
