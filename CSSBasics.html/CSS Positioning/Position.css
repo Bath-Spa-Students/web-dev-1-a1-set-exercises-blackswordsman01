@@ -1,0 +1,15 @@
+div{border: solid brown 5px;}
+img{margin: 5px;}
+.img2{position: absolute;
+    top: 50px;}
+
+.img4{position: fixed;}
+.img3{position: sticky;
+top: 100px;}
+
+.container{background-color: olive;
+height: 800px;}
+
+.container2{border: solid brown 5px;
+height: 800px;
+background-color: aqua;}
