@@ -1,0 +1,123 @@
+/*Body Layout*/
+body {
+    font-family: "Arial", sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #000000;
+}
+
+/*Header Layout*/
+.position {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header {
+    background-color: #17072b;
+    color: #FFFFFF;
+    padding: 20px 0;
+}
+
+header h1 {
+    font-family: "Tahoma", sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/*Navbar Layout*/
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.navbar{
+    text-align: center;
+}
+
+nav a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/*Welcome Layout*/
+#intro{
+    margin: 25px;
+}
+
+section {
+    margin-bottom: 50px;
+}
+
+section h2 {
+    font-family: "Tahoma", sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    text-decoration: underline;
+}
+
+section p {
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+/*Line Up Content Layout*/
+section ul {
+    list-style: none;
+}
+
+section ul li {
+    margin-bottom: 20px;
+}
+
+section ul li h2 {
+    font-family: "Tahoma", sans-serif;
+    font-weight: 700;
+}
+
+/*Footer Layout*/
+footer {
+    background-color: #8c15e9;
+    color: #FFFFFF;
+    padding: 20px 0;
+    text-align: center;
+}
+
+/*Flex Box Layout*/
+.parent{
+    display: flex;
+    justify-content: right; 
+    align-items: flex-end;
+    height: 60px; 
+}
+
+#line-up {
+    background-color: #172d67;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    padding: 10px;
+}
+
+#line-up ul li h3 {
+    font-family: "Tahoma", sans-serif;
+    font-weight: 700;
+}
+
+#images {
+    display: flex;
+    justify-content: space-between;
+}
+
+#images img {
+    width: 48%;
+}
