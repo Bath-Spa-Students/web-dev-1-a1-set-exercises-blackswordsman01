@@ -1,0 +1,221 @@
+*{
+    margin: 0px
+}
+
+/*Navbar Section*/
+
+.navbar {
+    text-align: center; 
+}
+
+.navbar ul{
+        list-style-type: none;
+        padding: 0;
+        margin: 0 auto; 
+        overflow: hidden;
+        height: 100px;
+        display: inline-block; 
+}
+
+.navbar a{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    font-size: xx-large;
+    font-weight: bold;
+    font-family:'Courier New', Courier, monospace;
+    }
+    
+    .navbar a:hover{
+        background-color:burlywood;
+    }
+    
+    .navbar li{
+        float: left;
+    }
+
+/*Introduction Page*/
+
+#Intro{
+    background: url(wdrte.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 42pc;
+}
+
+h1{
+    color:red;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 50px;
+    
+}
+
+#home{
+    color: white;
+    text-align: center;
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+}
+
+/*Plot*/
+
+#Plot{
+    background: url(mj.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 42pc;
+}
+
+#plot{
+    color: yellow;
+    font-size: xx-large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    text-decoration-line: underline;
+    padding-top: 50px;
+}
+
+#p01{
+    color: white;
+    padding: 50px;
+    text-align: center;
+    font-size: x-large;
+    padding-top: 10pc;
+}
+
+/*Key Info*/
+
+#Key{
+    background: url(lj.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 42pc;
+}
+
+.klist{
+    color: black;
+    font-weight: bolder;
+    font-size: x-large;
+    padding-top: 2pc;
+}
+
+#info{
+    color: yellow;
+    font-size: xx-large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    text-decoration-line: underline;
+    padding-top: 100px;
+}
+
+/*Cast*/
+
+#Cast{
+    background: url(cj.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 42pc;
+}
+
+#cast{
+    color: yellow;
+    font-size: xx-large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    text-decoration-line: underline;
+    padding-top: 100px;
+}
+
+.clist{
+    color: white;
+    font-weight: bolder;
+    font-size: x-large;
+    padding-top: 2pc;
+}
+
+/*Characters*/
+
+#Characters{
+    background: url(pj.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 42pc;
+}
+
+#characters{
+    color: yellow;
+    text-align: left;
+    font-size: xx-large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    text-decoration-line: underline;
+    padding-top: 100px;
+}
+
+.plist{
+    color: white;
+    text-align: left;
+    list-style-type: none;
+    font-weight: bolder;
+    font-size: x-large;
+    padding-top: 2pc;
+}
+
+/*Reviews*/
+
+#Reviews{
+    background: url(end.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 42pc;
+}
+
+#reviews{
+    color: yellow;
+    font-size: xx-large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    text-decoration-line: underline;
+    text-align: center;
+    padding-top: 100px;
+}
+
+p{
+    color: white;
+    padding: 15px;  
+    font-size: large;
+    text-align: center;
+}
+
+/*Button*/
+
+.parent{
+    text-align: center;
+    padding-top: 35px;
+}
+
+.button {
+    display:inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    background-color: green;
+    color: white; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    }
+    
+.button:hover {
+    background-color:darkgreen
+    }
