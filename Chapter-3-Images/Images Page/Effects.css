@@ -1,0 +1,21 @@
+/*Body Layout*/
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+/*Image Surroundings*/
+.picture {
+    display: inline-block;
+    margin: 20px;
+    border: 4px solid greenyellow; 
+    border-radius: 5px; 
+    overflow: hidden; 
+    box-shadow: 4px 4px 4px rgba(247, 7, 7, 0.6); 
+}
+
+/*Image Edit*/
+img {
+    max-width: 100%;
+    height: auto;
+}
