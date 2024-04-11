@@ -1,0 +1,52 @@
+/*Body Section */
+body {
+    margin: 20px; 
+    background: url(lb.jpg);
+    background-repeat: no-repeat;
+    background-size:cover; 
+    background-position: center;
+}
+
+/*Headings Section*/
+h1 {
+    color:white;
+    text-align:center;
+    text-decoration-line: underline;
+}
+
+h2 {
+    color: white;
+    text-align: left;
+}
+
+/*Paragraph Section*/
+p {
+    color: white;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+p1{
+    color: white;
+    text-align: left;
+}
+
+p2{
+    color:plum;
+    font-family: cursive;
+    font-size: x-large
+}
+
+/*Lists Section*/
+ul, ol {
+    color: white;
+    text-align: left;
+}
+
+/*Image Section*/
+img {
+    margin: 20px auto;
+    border-radius: 8px;
+    border-style: groove;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
